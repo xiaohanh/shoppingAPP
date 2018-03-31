@@ -1,0 +1,80 @@
+   *{
+     padding:0;
+     margin:0;
+   }
+  	.all{
+        	background-image: url(../images/bgimg.jpg);
+        	width:100%;
+        
+        	
+      }  
+    .head{
+    	background-color:deepskyblue;
+    	width:10.8rem;
+    	height:1.5rem;
+    }
+   
+     .p1{
+     
+     font-size:0.7rem;
+    margin-left:4rem;
+    
+     }
+  
+    
+    
+     .first{
+     	width:6rem;
+     	height:6.5rem;
+     	float:left;
+     	margin-top:0.5rem;
+     	margin-left:-0.9rem;
+    
+     }
+     .second{
+     	width:5rem;
+     	height:5rem;
+     	float:left;
+     	
+     	margin-top:-6.5rem;
+     	margin-left:4.8rem;
+     }
+     .tu{
+     	width:5.5rem;
+     	height:6.9rem;
+     }
+     .p2{
+     	font-size:0.5rem;
+     }
+   .p3{
+   	font-size:0.6rem;
+   margin-top:0.4rem;
+   }
+     .num{
+     	 width:1.8rem;
+       height:0.8rem;
+       text-align:center;
+     }
+     .del{
+     	 width:1.8rem;
+       height:0.8rem;
+       text-align:center;
+       font-size:0.5rem;
+     
+     }
+     .xiaoji{
+     width:2rem;
+       height:0.8rem;
+       text-align:center;
+     }
+     
+     .ydel{
+     		font-size:0.6rem;
+   	margin-top:0.4rem;
+     }
+     .content{
+     	margin-top:-0.9rem;
+     }
+
+  
+       	 

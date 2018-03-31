@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>首页</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <link rel="stylesheet" href="css/bootstrap.min.css">	
+    <link rel='stylesheet' type="text/css" href='css/index.css' />	
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript"></script>	
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  	<script src="js/rem.js"></script>
+    
+</head>
+
+<body >
+  <div class="all"> 
+		<!--搜索框-->
+	   <div class="head">
+	    	<input type="search" placeholder='搜索'  class="search" onclick=search(); >
+	   </div>
+	    <!--轮播图-->
+	       <div id="generic" class="carousel slide" data-ride="carousel">
+  	          <!-- 轮播（Carousel）指示标 -->
+               <ol class="carousel-indicators">
+                <li data-target="#generic" data-slide-to="0" class="active"></li>
+                <li data-target="#generic" data-slide-to="1"></li>
+                <li data-target="#generic" data-slide-to="2"></li>
+               </ol>
+                 <!-- 轮播（Carousel）项目 -->
+          <div class="carousel-inner" >
+              <div class="item active">
+              <img alt="First slide" src="images/5.jpg" class='image'>
+		   
+            </div>
+            <div class="item">
+              <img alt="Second slide" src="images/2.jpg" class='image'>
+    
+             </div>
+             <div class="item">
+               <img alt="Third slide" src="images/3.jpg" class='image' >
+		  
+             </div>
+           </div>
+           <!-- 轮播（Carousel）导航 -->
+          
+           <a class="left carousel-control" href="#generic" data-slide="prev">
+             <span class="glyphicon glyphicon-chevron-left"></span>
+           </a>
+           <a class="right carousel-control" href="#generic" data-slide="next">
+             <span class="glyphicon glyphicon-chevron-right"></span>
+           </a>
+        </div>
+     <!--图标-->   
+        <div class="yuan">
+        	<img src="images/chaoshi.jpg" class="tu">
+            <p class="pp">天猫超市</p> 		
+        </div>  
+        <div class="yuan">
+        	<img src="images/jinbi.jpg" class="tu">
+            <p class="pp">淘金币</p> 		
+        </div> 
+       
+        <div class="yuan">
+        	<img src="images/travel.jpg" class="tu">
+            <p class="pp">飞猪旅行</p> 		
+        </div> 
+        <div class="yuan">
+        	<img src="images/waimai.jpg" class="tu">
+            <p class="pp">外卖</p> 		
+        </div> 
+        <div class="yuan">
+        	<img src="images/chong.png" class="tu">
+            <p class="pp">充值中心</p> 		
+        </div> 
+      <!--商品分类-->  
+         <div class="ccc"><h1 class="cc" onclick=cc();>商&nbsp;品&nbsp;分&nbsp;类</h1>
+         </div>   
+    <!--热销商品列表-->
+        
+          <div  id="goodList">
+    
+		  </div>
+
+   
+       <!--底部-->
+
+		    <div data-role="navbar" data-position="fixed" >
+	      		<ul>
+			        <li><a href="index.html" data-icon="home"  class='ui-btn-active ui-state-persist' rel="external">首页</a></li>
+			        <li><a href="shoppingcart.html" data-icon="user-white" rel="external">购物车</a></li>
+			        <li><a  href="setup.html" data-icon="star"   rel="external" >设置</a></li>
+			       
+			       
+		      	</ul>
+	    	</div>
+   
+  </div>
+</body>
+<script src="js/index.js"></script>
+
+
+</html>

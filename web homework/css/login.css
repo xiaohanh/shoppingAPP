@@ -1,0 +1,35 @@
+      .all{
+            width:10.8rem;
+        	height：19rem;
+        	background-image: url(../images/bgimg.jpg);
+             overflow-x: hidden; 
+        	 overflow-y: hidden; 
+        	
+        }
+   	    .tao{
+   	    	width:3rem;
+   	    	height:3rem;
+   	    	border-radius:50%;
+   	    	margin-top:3rem;
+   	    	margin-bottom:3rem;
+   	    }
+   	   
+   	  .sp{
+   	  	 font-size:0.5rem;
+   	  	 margin-left:1.2rem;
+   	  }
+   	  
+   	  #btn{
+   	    	width:8rem;
+   	    	height:1rem;
+   	    	border-radius: 10%;
+   	    	margin-top:2rem;
+   	    	margin-left:1rem;
+   	        background-color: antiquewhite;
+   	        
+   	    }
+   	
+   	#warn{
+   		color:red;
+   	}
+  

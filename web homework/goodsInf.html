@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+         <link rel="stylesheet" href="css/animate.min.css">
+   	     <link rel="stylesheet" href="css/goodsInf.css">
+         <script src="js/jquery-2.2.2.js"></script>
+         <script src="js/swiper-3.3.1.jquery.min.js"></script>
+         <script src="js/swiper.animate1.0.2.min.js"></script>
+         <script src="js/rem.js"></script>
+       
+		 <title>详情页</title>
+
+   </head>
+   <body class="all">
+	  <div data-role="page" class="information">
+	  	
+	  	<div data-role="header">
+	  		 <div class="dd">
+	  		 	<span><button class="rel" onclick=rel();>返回</button></span>
+	  		 	<p class='gou' >商品详情  </p>
+	  		 	
+	  		 	
+	  		 </div>
+	  		<!--轮播图-->
+	  		 <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"><img src="" alt="" class="tu"></div>
+                    <div class="swiper-slide"><img src="" alt="" class="tu"></div>
+                    <div class="swiper-slide"><img src="" alt="" class="tu"></div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+             </div>
+            
+	  	 </div>
+	  	
+	  	<div data-role="content" >
+	  		<!--商品详情-->
+            <div>
+	  		   <ul class='inf'>
+	  			
+	  		   </ul>
+	  	   </div>	
+	   </div>
+	   <!--商品数量-->
+	  <div class="bt">
+	  <input type="button" data-inline="true" value="-" class="minus"/>
+	    	     
+	   <input type="button" data-inline="true" value='1'  class="num"/>
+             
+	  <input type="button"  data-inline="true" value="+" class="plus"/>
+     <div>
+     
+	
+		<div data-role="footer"  data-position="fixed" >
+			<br/>
+			<input type="button" value="加入购物车"  class="add" />	
+			
+            <input type="button" value="查看购物车" class="see"  />	
+		</div>
+	
+		
+
+	  
+	</body>
+	<script src="js/goodsInf.js"></script>
+	
+</html>

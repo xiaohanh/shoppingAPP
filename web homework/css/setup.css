@@ -1,0 +1,35 @@
+
+     	  a{
+     	  	text-decoration: none;
+     	  }
+     	  .tou{
+     	  	border-radius: 50%;
+     	  
+     	  	width:2.5rem;
+     	  	height:2.5rem;
+     	  }
+     	  
+      
+   	    
+		.foot{
+			
+			background-image: url(../images/bgimg.jpg);
+        	width:100%;
+            text-align: center;
+		
+		} 
+		.aa{
+			width:10.8rem;
+   	    	height:1rem;
+   	    	font-size:0.7rem;
+   
+		}
+      
+		.all{
+        	background-image: url(../images/bgimg.jpg);
+        	width:100%;
+        
+        	
+      } 
+    
+    

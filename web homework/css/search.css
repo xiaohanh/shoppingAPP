@@ -1,0 +1,28 @@
+   *{
+     padding:0;
+     margin:0;
+   }
+   
+   .aa{
+   	width:8rem;
+   	height:1rem;
+   }
+   .bb{
+   	margin-left:0.7rem;
+   	
+   }
+  li{
+	list-style:none;
+	
+}
+.image{
+	width:6rem;
+	height:6rem;
+}
+ .all{
+        	background-image: url(../images/bgimg.jpg);
+        	width:100%;
+        	
+      } 
+    
+	
